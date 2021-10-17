@@ -35,7 +35,7 @@ def encode(string="hello world", key=randomkey(), output=0):
              else:
                return algorithm
 def decode(string, key):
-           	 random.seed(key)
+             random.seed(key)
              def calc(num1, num2, decider):
                   if decider == 1:
                     result = num1+num2
